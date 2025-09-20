@@ -2,7 +2,7 @@
 title: "깃허브 블로그 시작하기"
 description: 깃허브 블로그 시작하기!
 author: cylanokim
-date: 2025-09-17   #11:33:00 +0800
+date: 2025-09-17 13:00:00 +0800
 categories: [GitHub, blog]
 tags: [github_blog]
 pin: true
