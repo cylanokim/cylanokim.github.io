@@ -2,7 +2,7 @@
 title: "Schema Matching"
 description: Schema Matching이란 무엇인지, 어떤 방법론이 연구되었는지 간단하게 조사
 author: cylanokim
-date: 2025-09-19   #11:33:00 +0800
+date: 2025-09-19 13:00:00 +0800
 categories: [Project, 조사]
 tags: [schema_matching]
 pin: true
