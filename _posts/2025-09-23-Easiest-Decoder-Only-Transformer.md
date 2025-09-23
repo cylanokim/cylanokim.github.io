@@ -1,6 +1,6 @@
 --- 
 title: "Decoder Only Transformer 찍먹 해보기!"
-description: 한국 사람은 다 아는 애국가 가사로, 정말 간단한 Decoder Only 트렌스포머 모델을 구현해보겠습니다. 고도화된 토크나이징, 학습 기법 다 필요 없이 일단 애국가 가사는 예측할 수 있는 모델을 만드는 것이 본 포스팅의 목적입니다! 
+description: 애국가 가사를 이용한, 정말 정말 간단한 Decoder only Model 찍먹해보기! 
 author: cylanokim
 date: 2025-09-21 19:00:00 +0800
 categories: [Transformer, From Scratch]
