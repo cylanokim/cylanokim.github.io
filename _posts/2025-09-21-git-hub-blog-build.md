@@ -49,7 +49,7 @@ bundle exec jekyll serve
 ---
 
 이 과정을 해당 깃 저장소의 Actions 탭에서 확인이 가능합니다. 그런데 이 Build 하는 과정에서 에러가 발생하였더라구요. 
-![build_error](/assets/build_error.png)
+![build_error](/assets/img/build_error.png)
 
 GPT와 씨름한 끝에, 위 에러는 Jekyll에서 SCCS 파일을 빌드할 때, import 대상 stylesheet을 찾지 못해서 발생하는 전형적인 오류라는 것을 확인했습니다. 이 과정이 상당히 복잡하고, 설명하기 어려운데 일단 해결책은 아래와 같이 2개의 작업을 진행하는 것이었습니다.
 

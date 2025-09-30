@@ -57,8 +57,9 @@ jekyll -v
 - **문제점**
 
     테마를 적용하고 저장소에 **Push**를 했는데 에러가 발생하였고, 저장소의 **Actions** 텝에서 왜 에러가 발생하였는지 확인해보았습니다.
-    ![GitHub Develop Error](/assets/gitgub_build_error.png)
 
+  <p align="center">
+  <img src="{{ site.baseurl }}/assets/img/github_build_error.png" width="80%" height="70%" title="GitHub Develop 에러" alt="GitHub Develop 에러"/></p> 
 
 - **원인과 해결 방법**
 
@@ -87,7 +88,7 @@ jekyll -v
 
 ✅ **깃허브 블로그에 giscus 댓글 기능 추가하기**
 ### 1. 깃허브 블로그 저장소 > `Settings` > `Features` 항목에서 **Discussions** 체크하기
-![discussions](/assets/discussions.png)
+![discussions](/assets/img/discussions.png)
 
 ### 2. 저장소에 giscus 앱 설치
 [https://github.com/apps/giscus](https://github.com/apps/giscus)에 접속 후 install!
@@ -97,7 +98,7 @@ jekyll -v
 
 먼저 아래 항목에 본인의 깃 허브 저장소 주소를 입력합니다.
 <p align="center">
-  <img src="/assets/my_repo.PNG" alt="myrepo" width="400">
+  <img src="/assets/img/my_repo.PNG" alt="myrepo" width="400">
 </p>
 
 그리고 댓글 기능이 구현될 카테고리를 설정합니다. 아직 정확한 이유는 모르겠지만 **Announcements**를 선택 하라고 합니다.
@@ -105,5 +106,5 @@ jekyll -v
 ### 4. 블로그 탬플릿에 script 태그 추가하기 
 모든 입력이 마무리 되면 아래와 미슷한 script 태그가 만들어집니다. 이제 이 태그를 블로그 포스팅 템플릿에 추가하면 됩니다. 블로그 포스팅 템플릿은 블로그 > _layouts > post.html 파일에 있는데 적당한 위치에 붙여 넣으면 됩니다. 
 <p align="center">
-<img src="/assets/script_tag.PNG" alt="script" width="400">
+<img src="/assets/img/script_tag.PNG" alt="script" width="400">
 </p>
