@@ -4,7 +4,7 @@ description: 애국가 가사를 이용한, 정말 정말 간단한 Decoder only
 author: cylanokim
 date: 2025-09-21 19:00:00 +0800
 categories: [Transformer, From Scratch]
-tags: [transformer, decoder-only, scratch]
+tags: [Transformer, decoder-only, scratch]
 pin: true
 math: true
 mermaid: true

@@ -88,7 +88,8 @@ jekyll -v
 
 ✅ **깃허브 블로그에 giscus 댓글 기능 추가하기**
 ### 1. 깃허브 블로그 저장소 > `Settings` > `Features` 항목에서 **Discussions** 체크하기
-![discussions](/assets/img/discussions.png)
+
+![discussions](/assets/img/discussions.PNG)
 
 ### 2. 저장소에 giscus 앱 설치
 [https://github.com/apps/giscus](https://github.com/apps/giscus)에 접속 후 install!
