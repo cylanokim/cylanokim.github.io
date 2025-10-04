@@ -3,6 +3,9 @@
 source "https://rubygems.org"
 
 gem "jekyll-theme-chirpy"
+gem "jekyll-sitemap" # 251004 google search 등록 위해 추가
+gem "jekyll-feed"
+gem "jekyll-seo-tag"
 
 # gemspec
 
