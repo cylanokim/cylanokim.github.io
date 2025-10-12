@@ -53,7 +53,7 @@ social:
 
 # Site Verification Settings
 webmaster_verifications:
-  google: google2fa292a8a327a8cd.html
+  google: yYATkBSw0lETK7cCnDmNabq8hn3zboRoGXFlKAqN0kQ
   bing: # fill in your Bing verification code
   alexa: # fill in your Alexa verification code
   yandex: # fill in your Yandex verification code
@@ -61,6 +61,8 @@ webmaster_verifications:
   facebook: # fill in your Facebook verification code
 
 # google-site-verification: google2fa292a8a327a8cd.html
+
+# <meta name="google-site-verification" content="yYATkBSw0lETK7cCnDmNabq8hn3zboRoGXFlKAqN0kQ" />
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
