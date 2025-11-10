@@ -94,7 +94,7 @@ $$
 $$
 \theta_{t+1} 
 = \theta_t 
-- \alpha \frac{\hat{m}_t}{\sqrt{\hat{v}_t} + \varepsilon} \qquad (7)
+- \eta \frac{\hat{m}_t}{\sqrt{\hat{v}_t} + \varepsilon} \qquad (7)
 $$
 
 Adam에서 gradient는 바로 학습률에 직접 곱해져 계산되지 않고 스케일링 과정이 진행되어 일종의 `effective 학습률`이 파라미터 업데이트에 적용됩니다. 즉 L2 Regularization 적용 시, 수식 (5), (6)과는 달리 Adam의 (7)에서는 모든 파라미터 θt​ 가 일정한 비율로 감소하지 않는 것입니다. 이는 오버 피팅을 막기 위해 파라미터가 값이 너무 커지면 그 파라미터의 비율만큼 줄이겠다고 고안된 Regularization의 본래 목적에서 벗어나는 것입니다. 이러한 문제로 고안된 것이 바로! AdamW 이며, 이에 대한 내용은 다음 포스팅에서 글을 이어 가겠습니다.  
