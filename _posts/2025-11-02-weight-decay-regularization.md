@@ -4,13 +4,13 @@ description: Transformer 기반 모델을 학습 하는 프로젝트를 진행 �
 author: cylanokim
 date: 2025-11-08 12:00:00 +0800
 categories: [Principle]
-tags: [python, pytorch, scratch, Adam, AdamW]
+tags: [ Adam, AdamW]
 pin: true
 math: true
 mermaid: true
 ---
 
-Deep Learning 공부하면서 가장 조심해야하는 것이라고 모든 책과 강의에서 강조하는 것이 있죠. **오버피팅!!!** 
+Deep Learning 공부하면서 가장 조심해야하는 것이라고 모든 책과 강의에서 강조하는 것이 있죠. **오버피팅!!** 
 
 제가 배운 강의에서는 오버피팅이란, 데이터의 복잡도 대비 모델의 복잡도가 커서 모델이 학습 데이터의 노이즈까지 외우는 상태를 오버 피팅이라 정의하였습니다. 이를 해결하기 위해 정~~~말 많은 초식들이 개발되어 왔는데, 대표적인 방법이 Weight Decay와 Regularization입니다. 
 
