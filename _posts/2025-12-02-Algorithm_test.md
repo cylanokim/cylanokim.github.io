@@ -58,3 +58,47 @@ def backtrack():
 
 backtrack()
 ```
+
+## 3. 치즈 BFS
+```python
+from collections import deque 
+
+N, M = int(input().split())
+A = [list(map(int, input().split())) for _ in range(N)]
+
+def bfs():
+    q = deque([(0,0)])
+    visited = [[False]*M for _ in range(N)]
+    melt = []
+
+    visited[0][0] = True
+    while q:
+        r, c = q.popleft()
+        for dr, dc in [(-1,0), (1,0), (0,-1), (0,1)]:
+            nr = r + dr
+            nc = c + dc 
+            if 0 <= nr < N and 0 <= nc < M and not visited[nr][nc]:
+                visited[nr][nc]
+                if A[nr][nc] == 0:
+                    q.append((nr, nc))
+                elif A[nr][nc] == 1:
+                    melt.append((nr, nc))
+    # 치즈 녹이기
+    for r, c in melt:
+        A[r][c] = 0
+    return len(melt)
+    
+time = 0
+while True:
+  melted_cheese = bfs()
+  if len(melted_cheese) == 0:
+      break
+  time += 1
+
+print(time)
+```
+
+## 4. 맛있는 음식 DFS
+
+
+## 5. 조합
