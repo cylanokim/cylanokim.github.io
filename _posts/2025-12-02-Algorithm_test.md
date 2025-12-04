@@ -99,6 +99,37 @@ print(time)
 ```
 
 ## 4. 맛있는 음식 DFS
+```python
+
+N = int(input().split())
+
+A = []
+for _ in range(N):
+    s, b = map(int, input().split())
+    A.append((s,b))
+
+ans = float('inf')
+
+def dfs(idx, sour, bitter, count):
+    global ans 
+
+    if idx == N:
+        if count >= 1:
+            diff = abs(sour, bitter)
+            if diff < ans:
+                ans = diff
+        return 
+    
+    s, b = A[idx]
+
+    # 1) idx 번째 재료를 사용 O
+    dfs(idx+1, sour*s, bitter+b, count+1)
+
+    # 2) idx 번째 재료를 사용 X
+    dfs(idx+1, sour, bitter, count)
+
+dfs(0, 1, 0, 0)
+```
 
 
 ## 5. 조합
