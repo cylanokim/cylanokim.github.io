@@ -59,6 +59,7 @@ webmaster_verifications:
   yandex: # fill in your Yandex verification code
   baidu: # fill in your Baidu verification code
   facebook: # fill in your Facebook verification code
+  naver: 20e4b180bbb0a10ee174f05e0a1c28d61e3c3e38
 
 # google-site-verification: google2fa292a8a327a8cd.html
 
