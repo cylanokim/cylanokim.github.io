@@ -1,6 +1,6 @@
 --- 
 title: "LoRA를 이용한 LLM Fine Tunning"
-description: LLM을 이용한 파인 튜닝
+description: LLM을 이용한 간단하게 파인 튜닝을 해보자.(PEFT) 
 author: cylanokim
 date: 2025-12-26 12:00:00 +0800
 categories: [LLM]
@@ -191,7 +191,7 @@ SOH is a term used to describe the amount of oxygen in the atmosphere. It is mea
 SOH is a measure of the amount of oxygen in the atmosphere. It is measured in parts
 ```
 
-파인 튜닝을 위한 간단한 데이터셋을 만들어보자. 아래 구조는 **instruction tuning**에서 전형적으로 사용되는 형태이다. 여기서 instruction은  모델에게 어떤 역할을 수행하라고 지시하는 상위 명령을 의미한다. 일종의 system prompt 역할을 하는 것으로 모델이 어떤 종류의 질문을 어떻게 답해야 하는지를 학습하게 한다. 이때 Decoder only 모델의 경우 `instruction + input + output`은 하나의 연속된 토큰 시퀀스로 모델에 들어간다. 
+파인 튜닝을 위한 간단한 데이터셋을 만들어보자. 아래 구조는 **instruction tuning**에서 전형적으로 사용되는 데이터셋 형태이다. 여기서 instruction은  모델에게 어떤 역할을 수행하라고 지시하는 상위 명령을 의미한다. 일종의 system prompt 역할을 하는 것으로 모델이 어떤 종류의 질문을 어떻게 답해야 하는지를 학습하게 한다. 이때 Decoder only 모델의 경우 `instruction + input + output`은 하나의 연속된 토큰 시퀀스로 모델에 들어간다. 
 
 ```python
 data_etch = {
