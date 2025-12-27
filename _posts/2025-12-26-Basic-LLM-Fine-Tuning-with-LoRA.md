@@ -257,7 +257,7 @@ trainer.train()
 - `tokenizer.pad_token = tokenizer.eos_token`: GPT/LLaMA 계열은 pad_token이 없음. 
 - `mlm=False` : GPT 계열, `mlm=True` : BERT 계열(Masked LLM) 
 
-## Step 6. Text Generation after Fine-Tuning 📚
+## Step 6. Text Generation after Fine-Tuning 📚📚
 
 ```python
 text = "What is SOH in semiconductor manufacturing process?"
