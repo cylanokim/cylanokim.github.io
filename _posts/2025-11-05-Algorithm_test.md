@@ -2,7 +2,7 @@
 title: "주요 알고리즘"
 description: 주요 알고리즘
 author: cylanokim
-date: 2025-12-02 12:00:00 +0800
+date: 2025-11-05 12:00:00 +0800
 categories: [Book Review]
 tags: [Book, review]
 pin: true
