@@ -1,6 +1,6 @@
 --- 
 title: "Elastic Search 스터디 02"
-description: Spring Boot에 ES 연결도 하기. 역 인덱스(Inverted Index)를 이용하여 검색해보기. 오랜만이구나 spring. 
+description: Spring Boot에 ES 연결 하기. 역 인덱스(Inverted Index)를 이용하여 검색해보기. 오랜만이구나 spring. 
 author: cylanokim
 date: 2026-01-12 12:00:00 +0800
 categories: [BACK_END]
