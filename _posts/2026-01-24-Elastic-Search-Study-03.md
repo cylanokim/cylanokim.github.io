@@ -17,7 +17,7 @@ mermaid: true
   - HTML 태그 제거, 특수 문자 치환 
   - Mapping 필터, Pattern Replace 필터
 
-  ### 2. Tokenizer
+### 2. Tokenizer
 
 | Tokenizer  | 설명             |
 | ---------- | -------------- |
@@ -203,7 +203,7 @@ GET /boards/_analyze
 ```
 
 ## ✅ Synonym 필터 설정
-ES는 다양한 동의어를 갖는 경우에도 검색이 가능할 수 있게 `synonym` 필터를 정의하고 적용할 수 있다. 나만 기억하기 위해서는 analyzer와 동일한 rank로 정의하고 filter list에 넣는다.
+ES는 다양한 동의어를 갖는 경우에도 검색이 가능할 수 있게 `synonym` 필터를 정의하고 적용할 수 있다. 간단한 기억 방법은.... analyzer와 동일한 rank로 정의하고 filter list에 넣는다.
 
 ### 1. 인덱스 정의
 ```
