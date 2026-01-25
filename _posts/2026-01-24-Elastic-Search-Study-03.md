@@ -18,6 +18,7 @@ mermaid: true
   - Mapping 필터, Pattern Replace 필터
 
   ### 2. Tokenizer
+
 | Tokenizer  | 설명             |
 | ---------- | -------------- |
 | standard   | 공백, 문장부호 기준 분리 |
@@ -41,21 +42,21 @@ mermaid: true
 ## ✅ Analyzer API란?
 - 특정 Analyzer가 텍스트를 어떻게 토큰화하는지 확인하는 API
 
-```http
+```
 # 1) 특정 analyzer 사용
 POST /_analyze
 {
-"analyzer": "standard",
-"text": "Elasticsearch Is AWESOME!"
+  "analyzer": "standard",
+  "text": "Elasticsearch Is AWESOME!"
 }
 
 # 2) 전체 파이프 라인
 POST /_analyze
 {
-"char_filter": ["html_strip"],
-"tokenizer": "standard",
-"filter": ["lowercase"],
-"text": "<b>Hello</b> WORLD"
+  "char_filter": ["html_strip"],
+  "tokenizer": "standard",
+  "filter": ["lowercase"],
+  "text": "<b>Hello</b> WORLD"
 }
 ```
 
@@ -147,7 +148,7 @@ GET /products/_analyze
 }
 ```
 
-## ✅ html_strip, 불용어(a, the....) 적용하기
+## ✅ html_strip, 불용어(a, the....)제거 필터 적용하기
 
 ### 1. 인덱스 만들기
 ```
