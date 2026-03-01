@@ -1,6 +1,6 @@
 --- 
-title: "Spring 다시 부르기 01"
-description: Spring Boot 기본을 다시 점검하자 (미완성!)
+title: "Spring 다시 부르기 02"
+description: Spring Boot에서 DB에 접근하는 기술인 JDBC와 JPA를 이해해보자!
 author: cylanokim
 date: 2026-02-27 12:00:00 +0800
 categories: [BACK_END]
