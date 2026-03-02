@@ -1,6 +1,6 @@
 --- 
 title: "Spring 다시 부르기 01"
-description: Spring Boot 기본을 다시 점검하자 (미완성!)
+description: Spring Boot 기본을 다시 점검하자.
 author: cylanokim
 date: 2026-02-20 12:00:00 +0800
 categories: [BACK_END]
