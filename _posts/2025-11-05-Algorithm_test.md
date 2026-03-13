@@ -49,10 +49,11 @@ backtrack(0)
 N = int(input())
 visited = [False] * N 
 arr = []
+result_list = []
 
 def backtrack():
   if len(arr) == N:
-      print(arr)
+      result_list.append(arr[:])
       return 
   
   for i in range(N):
@@ -68,7 +69,10 @@ def backtrack():
       arr.pop()
 
 backtrack()
+print(result_list)
 ```
+### 추가 알아야할 것
+- `coninue` : 현재 진행하는 iteration의 나머지 코드를 건너 뛰고 다음 iteration으로 넘어가라
 
 ## 3. 치즈 BFS
 ```python
