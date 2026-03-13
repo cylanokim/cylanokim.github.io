@@ -19,7 +19,7 @@ subset = []
 def backtrack(idx):
     # 1) 종료 조건
     if idx == len(arr):
-      print(arr)
+      print(subset)
       return 
     
     # 2) idx 원소 선택 O
