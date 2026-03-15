@@ -44,7 +44,7 @@ backtrack(0)
 [1,2,3] [1,2] [1,3] [1] [2,3] [2] [3] []
 ```
 
-## 2. Backtracking 알고리즘_2
+## 2. Backtracking 알고리즘_2 (순열, permutation)
 ```python
 N = int(input())
 visited = [False] * N 
@@ -73,6 +73,7 @@ print(result_list)
 ```
 ### 추가 알아야할 것
 - `coninue` : 현재 진행하는 iteration의 나머지 코드를 건너 뛰고 다음 iteration으로 넘어가라
+- result_list 원소의 개수는 N!. 즉 `순열(permutation)` 문제와 동일하다. 
 
 ## 3. 치즈 BFS
 ```python
